@@ -1,12 +1,12 @@
 import React, { useRef, useState } from "react";
 import CustomHook from "../CustomHook/CustomHook";
 import "./style.css";
-import primaLogo from "./companyLogo/Case-logo-prima.jpg"
-import jfsLogo from "./companyLogo/Case-logo-jfc.jpg"
-import smaLogo from "./companyLogo/Case-logo-sma.jpg"
-import mamontLogo from "./companyLogo/Case-logo-min.jpg"
-import airpodsLogo from "./companyLogo/Case-logo-airpods4.jpg"
-import vtrendeLogo from "./companyLogo/Case-logo-vtrende.jpg"
+import primaLogo from "../../assets/companyLogo/Case-logo-prima.jpg"
+import jfsLogo from "../../assets/companyLogo/Case-logo-jfc.jpg"
+import smaLogo from "../../assets/companyLogo/Case-logo-sma.jpg"
+import mamontLogo from "../../assets/companyLogo/Case-logo-min.jpg"
+import airpodsLogo from "../../assets/companyLogo/Case-logo-airpods4.jpg"
+import vtrendeLogo from "../../assets/companyLogo/Case-logo-vtrende.jpg"
 
 
 function Skills() {
