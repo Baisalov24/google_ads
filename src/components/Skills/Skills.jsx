@@ -1,13 +1,13 @@
 import React, { useRef, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faReact,
-  faHtml5,
-  faCss3,
-  faJs,
-} from "@fortawesome/free-brands-svg-icons";
 import CustomHook from "../CustomHook/CustomHook";
 import "./style.css";
+import primaLogo from "./companyLogo/Case-logo-prima.jpg"
+import jfsLogo from "./companyLogo/Case-logo-jfc.jpg"
+import smaLogo from "./companyLogo/Case-logo-sma.jpg"
+import mamontLogo from "./companyLogo/Case-logo-min.jpg"
+import airpodsLogo from "./companyLogo/Case-logo-airpods4.jpg"
+import vtrendeLogo from "./companyLogo/Case-logo-vtrende.jpg"
+
 
 function Skills() {
   const divs = useRef([]);
@@ -16,47 +16,43 @@ function Skills() {
 
   const [listSkills] = useState([
     {
-      name: "HTML",
-      des: "I leveraged HTML to structure web content, ensuring semantic markup for accessibility and SEO optimization. My focus on HTML5 allowed me to utilize the latest multimedia and interactive elements, making web pages more engaging and functional.",
-      icon: faHtml5,
+      name: "Prima Construction-construction company",
+      des: "My role in this project was to drive new customer acquisition through Google Ads. I was responsible for developing and optimizing targeted campaigns to generate high-quality leads. With a budget of $8,000, I successfully managed the campaigns to achieve a total of 13,800 leads, resulting in a cost per lead (CPL) of $0.50. My tasks included keyword research, ad copy optimization, campaign structuring, and continuous performance analysis to maximize ROI. Additionally, I used conversion tracking and A/B testing to improve campaign effectiveness and ensure that the goals were met within the allocated budget.",
+      icon: primaLogo,
     },
     {
-      name: "CSS",
-      des: "With CSS, I styled web interfaces to match design mockups precisely, employing CSS3 features for animations, transitions, and responsive layouts. I utilized preprocessors like SASS for more efficient styling, and frameworks such as Bootstrap to speed up the development process.",
-      icon: faCss3,
+      name: "JFC Gym",
+      des: "In this project, my objective was to drive lead generation for JFC Gym through Google Ads. With a budget of $2,500, I developed and optimized search and display campaigns to attract high-quality leads. As a result, I generated a total of 5,400 leads, achieving a cost per lead (CPL) of $0.40. My responsibilities included keyword research, ad copywriting, bid management, and continuous monitoring of campaign performance to ensure efficient budget allocation. I also implemented conversion tracking and used A/B testing to refine ad performance, which helped in optimizing ROI and achieving the desired lead generation goals.",
+      icon: jfsLogo,
     },
     {
-      name: "Javascript",
-      des: "I utilized JavaScript to add interactivity to web pages, from simple animations to complex application logic. My work included ES6+ features for cleaner code, AJAX for dynamic content loading, and JSON for data handling, significantly enhancing user experience.",
-      icon: faJs,
+      name: "SMA Group",
+      des: "For the SMA Group project, my primary goal was to generate high-quality leads through Google Ads. With a budget of $25,000, I focused on optimizing search and display campaigns to achieve an optimal cost per lead (CPL) of $0.35. As a result, I generated approximately 71,429 leads. My tasks included conducting in-depth keyword research, optimizing ad copy, managing bidding strategies, and continuously analyzing campaign performance. By closely monitoring the results and making necessary adjustments, I successfully maximized lead generation while ensuring that the campaigns stayed within budget. Additionally, I used conversion tracking and A/B testing to enhance the effectiveness of the campaigns and improve ROI.",
+      icon: smaLogo,
     },
     {
-      name: "ReactJs",
-      des: "In React projects, I built reusable components to streamline development and maintain consistency across applications. I leveraged React's state management and lifecycle methods to handle dynamic data effectively, creating fast, responsive user interfaces.",
-      icon: faReact,
+      name: "Mamont.toys",
+      des: "For the Mamont.toys project, my main goal was to drive sales through Google Ads. With a budget of $2,800, I successfully generated 850 sales, achieving a cost per sale (CPS) of $3.10. My responsibilities included setting up and optimizing search and shopping campaigns, conducting thorough keyword research, and refining ad copy to increase conversion rates. I continuously monitored campaign performance, adjusted bidding strategies, and implemented A/B testing to improve ad effectiveness. By leveraging conversion tracking, I was able to maximize sales while staying within the allocated budget and ensuring high ROI.",
+      icon: mamontLogo,
     },
     {
-      name: "Redux",
-      des: "I integrated Redux into React applications for predictable state management, ensuring a unidirectional data flow and centralized state. This made debugging and testing easier, and facilitated the development of features requiring global state, like user authentication and form handling.",
+      name: "AirPods store",
+      des: "For the AirPods store project, my primary goal was to drive sales through Google Ads. With a budget of $6,000, I successfully generated 2,500 sales, achieving a cost per sale (CPS) of $2.40. My tasks included setting up and optimizing search and shopping campaigns, performing detailed keyword research, and refining ad copy to maximize conversions. I also continuously monitored campaign performance, adjusted bidding strategies, and conducted A/B testing to improve campaign effectiveness. By utilizing conversion tracking, I ensured the campaigns delivered optimal results within the allocated budget.",
+      icon: airpodsLogo,
     },
     {
-      name: "TypeScript",
-      des: "I adopted TypeScript to enhance JavaScript code reliability and maintainability, leveraging its static typing to catch errors early and ensure type safety across the application. TypeScript's features enabled more robust coding practices and improved collaboration with back-end teams.",
+      name: "Vtrende - shoe store",
+      des: "For the Vtrende shoe store project, my goal was to drive sales through Google Ads. With a budget of $1,200, I successfully generated approximately 316 sales, achieving a cost per sale (CPS) of $3.80. My responsibilities included creating and optimizing search and shopping campaigns, performing thorough keyword research, and crafting compelling ad copy to improve conversion rates. I closely monitored campaign performance, adjusted bidding strategies, and used A/B testing to optimize results. By leveraging conversion tracking, I ensured that the campaigns delivered high-quality results while staying within budget.",
+      icon: vtrendeLogo,
     },
   ]);
   return (
-    <section ref={scrollTab} className="Skills">
+    <section ref={scrollTab} className="Skills1 Projects">
       <div className="title" ref={(el) => el && divs.current.push(el)}>
-        Toolkit Arsenal
+      Work Showcase
       </div>
       <div className="des" ref={(el) => el && divs.current.push(el)}>
-        In this section, I delve into the comprehensive suite of technologies
-        and tools that have been instrumental in my journey as a front-end
-        developer. From the foundational trifecta of HTML, CSS, and JavaScript,
-        which forms the backbone of the web, to advanced frameworks like React
-        for component-driven development and Redux for state management, each
-        tool has been carefully selected and mastered to enhance functionality,
-        aesthetics and user experience.
+      In this section, I showcase the results of my work through real case studies. Here, you'll find examples of how I have successfully managed Google Ads campaigns, improved ROI, and helped businesses achieve their marketing goals. 
       </div>
       <div className="list">
         {listSkills.map((value, key) => (
@@ -65,7 +61,7 @@ function Skills() {
             key={key}
             ref={(el) => el && divs.current.push(el)}
           >
-            <FontAwesomeIcon icon={value.icon} />
+            <img className="companyLogo" alt='logo' src={value.icon}/>
             <h3>{value.name}</h3>
             <div className="des">{value.des}</div>
           </div>

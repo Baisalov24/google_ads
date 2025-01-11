@@ -1,32 +1,29 @@
 let timelineElements = [
   {
     id: 1,
-    title: "Frontend Developer",
-    location: "Kyrgyzstan",
-    description:
-      "As a junior front-end developer, I transformed complex designs into dynamic web pages, ensuring responsiveness and cross-browser compatibility. My responsibilities included website maintenance, content updates, and implementing design adjustments to enhance user experience. I was committed to learning new technologies and collaborating with team members across departments, contributing to innovative solutions and improved project outcomes.",
-    company: "LLC DiGi,",
-    date: "December 2021 - August 2022",
+    title: "Google Ads/PPC Specialist",
+    description: 
+      "I was responsible for developing, managing, and optimizing PPC campaigns in Google Ads to drive qualified traffic and improve conversion rates. This involved conducting extensive keyword research and competitor analysis to refine ad targeting and enhance relevance. By analyzing campaign data from Google Analytics and Google Ads reports, I was able to continuously adjust strategies to maximize ROI. Additionally, I created detailed performance reports for clients, highlighting key metrics and recommending actionable changes to further optimize campaigns.",
+    company: "Agama Digital Studio",
+    date: "February 2023 – present ",
     icon: "work",
   },
   {
     id: 2,
-    title: "DevOps engineer",
-    location: "Germany",
+    title: "Paid Ads Specialist",
     description:
-      "In this company  I delved into the crucial practices of software development and deployment automation, focusing on enhancing collaboration between development and operations teams. I acquired practical skills in using tools like Docker, Jenkins, and Kubernetes to facilitate continuous integration and deployment pipelines.",
-    company: "Plazz.Ag",
-    date: "September 2022 - June 2023",
+      "I managed and optimized paid ad campaigns across platforms such as Google Ads, Facebook Ads, and others to ensure maximum conversions and ROI. My responsibilities included conducting detailed keyword research and audience segmentation to enhance targeting and improve ad relevance. I closely monitored campaign performance through tools like Google Analytics and Facebook Ads Manager, making necessary adjustments to refine strategies for better results. Furthermore, I created in-depth reports on campaign performance, identified areas that needed improvement, and provided strategic recommendations to boost overall performance.",
+    company: "Plazz AG",
+    date: "June 2021 – December 2022",
     icon: "work",
   },
   {
     id: 3,
-    title: "Frontend Developer",
-    location: "Bulgaria",
+    title: "Digital Marketing Specialist",
     description:
-      "I specialized in creating interactive and visually appealing web applications using HTML, CSS, JavaScript, along with React and Redux for state management. My proficiency in these technologies allowed me to contribute significantly to building responsive user interfaces that offered seamless user experiences across different devices and platform.",
-    company: "JunoTech Solutions",
-    date: "August 2023 - December 2023",
+      "In my role, I focused on managing and optimizing Google Ads campaigns, including both search and display ads, to drive quality traffic and boost conversions. I conducted thorough keyword research to ensure precise targeting and improve ad relevance. By analyzing campaign data from Google Analytics and other tools, I identified key performance trends and areas that needed refinement. I also compiled detailed performance reports, offering strategic insights and suggestions for continuous optimization.",
+    company: "Eweb LLC",
+    date: "August 2020 – May 2021",
     icon: "work",
   },
 ];

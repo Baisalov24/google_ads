@@ -1,11 +1,11 @@
-section.Skills{
+section.Skills1{
     & .title{
         text-align: center;
         font-size: 5vw;
         font-family: 'MuseoModerno', system-ui;
     }
     & .des{
-        color: #eee5;
+        color: white;
         text-align: center;
         max-width: 500px;
         margin: auto;
@@ -50,4 +50,9 @@ section.Skills{
             }
         }
     }
+  }
+
+  .companyLogo {
+    max-width: 100%;
+    border-radius: 5%;
   }

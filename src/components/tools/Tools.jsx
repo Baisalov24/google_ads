@@ -1,28 +1,20 @@
 import React from "react";
 import {
-  linuxLogo,
-  htmlLogo,
-  cssLogo,
-  bootstrapLogo,
-  jsLogo,
-  reactLogo,
-  dockerLogo,
-  typescriptLogo,
-  githubLogo,
-  gcpLogo,
+  icons1,
+  icons2,
+  icons3,
+  icons4,
+  icons5,
+  icons6,
 } from "./imports";
 
 import "./style.css";
-const logos = [linuxLogo,
-  htmlLogo,
-  cssLogo,
-  bootstrapLogo,
-  jsLogo,
-  reactLogo,
-  dockerLogo,
-  typescriptLogo,
-  githubLogo,
-  gcpLogo,
+const logos = [icons1,
+  icons2,
+  icons3,
+  icons4,
+  icons5,
+  icons6,
 ];
 
 const Tools = () => {

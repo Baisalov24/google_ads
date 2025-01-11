@@ -1,25 +1,18 @@
-import linuxLogo from "../../assets/tools/linux.png";
-import htmlLogo from "../../assets/tools/html.png";
-import cssLogo from "../../assets/tools/css-3.png";
-import bootstrapLogo from "../../assets/tools/bootstrap.png";
-import jsLogo from "../../assets/tools/js.png";
-import reactLogo from "../../assets/tools/physics.png";
-import dockerLogo from "../../assets/tools/docker.png";
-import typescriptLogo from "../../assets/tools/typescript.png";
-import githubLogo from "../../assets/tools/github.png";
-import gcpLogo from "../../assets/tools/google-cloud.png";
+import icons1 from "../../assets/tools/icons1.png";
+import icons2 from "../../assets/tools/icons2.png";
+import icons3 from "../../assets/tools/icons3.png";
+import icons4 from "../../assets/tools/icons4.png";
+import icons5 from "../../assets/tools/icons5.png";
+import icons6 from "../../assets/tools/icons6.png";
+
 
 
 
 export {
-  linuxLogo,
-  htmlLogo,
-  cssLogo,
-  bootstrapLogo,
-  jsLogo,
-  reactLogo,
-  dockerLogo,
-  typescriptLogo,
-  githubLogo,
-  gcpLogo,
+  icons1,
+  icons2,
+  icons3,
+  icons4,
+  icons5,
+  icons6,
 };

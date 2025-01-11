@@ -12,8 +12,8 @@ const NavBar = ({ activeTab }) => {
   const [linkNav] = useState([
     "Home",
     "Experience",
-    'Skills',
     "Projects",
+    "Skills",
     "Contacts",
   ]);
   const [statusNav, changeStatusNav] = useState(null);
@@ -32,7 +32,7 @@ const NavBar = ({ activeTab }) => {
         {linkNav.map((value) => (
           <span
             key={value}
-            className={activeTab === value ? "active" : ""}
+            // className={activeTab === value ? "active" : ""}
             onClick={() => changeTab(value)}>{value}</span>
         ))}
       </nav>

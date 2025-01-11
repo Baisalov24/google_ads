@@ -1,8 +1,6 @@
 import React, {useState, useRef } from "react";
 import './style.css'
 import CustomHook from '../CustomHook/CustomHook';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import emailjs from "@emailjs/browser";
 
 const initialFormData = {
@@ -61,24 +59,17 @@ const scrollTab = useRef();
 CustomHook(scrollTab, divs);
 
   return (
-    <div className="form_section Contacts"  ref={scrollTab}>
+    <div className="form_section Contacts"  ref={scrollTab} id="contactMe">
       <div className="form_wrapper">
         <div className="form_left" ref={(el) => el && divs.current.push(el)}>
          
             <p>
               <a href="mailto:t.baisalov44@gmail.com" className="gmail-button" rel="noreferrer">
-                <strong>Email: t.baisalov44@gmail.com</strong>
+                <strong>Email: temirlanbaisalov35@gmail.com</strong>
               </a>
             </p>
             <p>
-              <a href="https://github.com/Baisalov24" target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faGithub}/>  <strong>Baisalov24</strong>
-              </a>
-            </p>
-            <p>
-              <a href="https://www.linkedin.com/in/temirlan-baisalov-4564992b4/"  target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faLinkedin}/> <strong>Temirlan Baisalov</strong>
-              </a>
+            <a href="tel:+13475630993">Phone number: +1(347)5630993</a>
             </p>
          
         </div>
